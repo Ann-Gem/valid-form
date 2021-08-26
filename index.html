@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validation</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-contant">
+            <div class="header-title">
+                Validation form
+            </div>
+        </div>
+    </header>
+    <section class="inputs">
+        <div class="container">
+            <h5 class="inputs-title"></h5>
+            <div class="form-inputs">
+                <div class="inputs-item">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <p class="description">Содержит от 3 до 10 буквенных символов</p>
+                </div>
+                <div class="inputs-item">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <p class="description">Укажите валидную форму email: mail@examp.com</p>
+                </div>
+                <div class="inputs-item">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <p class="description">Пароль от 8 символов состоит из букв в вехнем и нижнем регистре и цифр</p>
+                </div>
+                <div class="inputs-item">
+                    <input type="text" name="phone" id="phone" placeholder="Phone"> 
+                    <p class="description">Номер телефона от 7 до 11 цифр</p>
+                </div>
+                <div class="inputs-item">
+                    <input type="text" name="url" id="url" placeholder="URL">
+                    <p class="description">Адрес должен начинаться с https:// и содержать</p>
+                </div>
+                                            
+                
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
