@@ -6,7 +6,8 @@ const patterns = {
     // password: /^[\w@-\d]{8,20}$/,
     password: /^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z]).{8,}$/,
     phone: /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,11}$/,
-    url: /^https?:\/\/[\w\/?.&-=]+$/
+    // url: /^https?:\/\/[\w.\/?.&-=]+$/
+    url: /^https?:\/\/([\w.]+)\/(\S*)/
 }
 
 function validate(field, regExp) {
